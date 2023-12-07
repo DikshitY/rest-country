@@ -7,7 +7,7 @@ import { useContext } from "react";
 import BtnContext from "./context/btnContext";
 
 function App() {
-  const {darkMode} = useContext(BtnContext)
+  const { darkMode } = useContext(BtnContext);
 
   return (
     <div className={darkMode ? "dark" : "light"}>
